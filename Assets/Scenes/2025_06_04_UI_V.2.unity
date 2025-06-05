@@ -291,6 +291,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100692831}
   m_CullTransparentMesh: 1
+--- !u!1 &154702166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 154702168}
+  - component: {fileID: 154702167}
+  m_Layer: 5
+  m_Name: Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &154702167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154702166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55fe519607b14d84c9f065ca8ca5057f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: {fileID: 524067424}
+  nextText: "\uB0BC_\uC26C\uB294_\uB0A0!!!!!!!!"
+--- !u!224 &154702168
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154702166}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3453125, y: 0.3453125, z: 0.3453125}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 959.99994, y: 553.12213}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &331601814
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +607,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC218\uC5C5\uC740 6\uC2DC\uC5D0 \uC885\uB8CC"
+  m_text: "\uC218\uC5C5\uC740 6\uC2DC\uC5D0 \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0
+    \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0 \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0
+    \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0 \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0
+    \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0 \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0
+    \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0 \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0
+    \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0 \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0
+    \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0 \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0
+    \uC885\uB8CC\uC218\uC5C5\uC740 6\uC2DC\uC5D0 \uC885\uB8CC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8793b5bd1ae56fe4e9a6c09d4e2e9133, type: 2}
   m_sharedMaterial: {fileID: -3067210927588973956, guid: 8793b5bd1ae56fe4e9a6c09d4e2e9133, type: 2}
@@ -961,8 +1018,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 524067424}
         m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-        m_MethodName: set_text
-        m_Mode: 5
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -970,11 +1027,23 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: "\uD734\uC2DD\uC744 \uC8FC\uC138\uC694!!!"
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
       - m_Target: {fileID: 1761252455}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 154702167}
+        m_TargetAssemblyTypeName: UI_Text, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1507,4 +1576,5 @@ SceneRoots:
   - {fileID: 1941976543}
   - {fileID: 89644780}
   - {fileID: 1132002640}
+  - {fileID: 154702168}
   - {fileID: 1393770282}
