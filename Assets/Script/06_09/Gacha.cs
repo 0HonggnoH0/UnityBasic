@@ -26,33 +26,24 @@ public class Gacha : MonoBehaviour
 
     public void Gatcha()
     {
-        Textarray[0].text = string.Empty;
+        for (int i = 0; i < 9; i++)
+        {
+            Textarray[i].text = string.Empty;
+        }
+        
         int random = Random.Range(0, characterList.Count);
-        Textarray[0].text = ($"Ä³¸¯ÅÍ{characterList[random]}");
+        Textarray[8].text = ($"{characterList[random]}");
     }
 
-    public void Gatcha10()
+    public void Gatcha8()
     {
-        Textarray[0].text = string.Empty;
+        
         for (int i = 0; i < 8; i++)
         {
             int random = Random.Range(0, characterList.Count);
 
             Textarray[i].text = ($"{characterList[random]} ");
 
-
-
-            /* int random = Random.Range(0, characterList.Count);
-             if (i == 4)
-             {
-                 Textarray[0].text += ($"{characterList[random]} ");
-                 Textarray[0].text += ("\n");
-
-             }
-             else
-             {
-                 Textarray[0].text += ($"{characterList[random]} ");
-             }*/
         }
     }
 
